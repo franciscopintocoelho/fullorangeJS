@@ -1,0 +1,138 @@
+/* _________________________________________________
+
+HTML5 CSS structure
+_____________________________________________________
+
+1-Reset
+2-Html5 tags
+3-Typography
+4-Site Properties
+5-Headings
+6-Reusable classes
+7-Basic Structure
+8-Project specifics
+9-Media Queries
+10-No js styles
+
+
+*/
+
+
+/* 1-Reset */
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var{
+  background: transparent;
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* 2-HTML5 tags */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{
+  display: inline;
+}
+
+
+/* 3-Typography */
+@font-face {}
+    
+
+/* 4-Site Properties */
+html {}
+
+body{
+  font: normal normal 12px/12px Tahoma, Arial, Helvetica, Verdana, sans-serif;
+}
+
+
+#view0 {
+  background: grey;
+}
+
+#view1 {
+  background: yellow;
+}
+
+#view2 {
+  background: blue;
+}
+
+.view {
+  width: 900px;
+  height: 400px;
+  margin: auto;
+  background: orange;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.subview {
+  width: 600px;
+  height: 500px;
+  background: green;
+  position: relative;
+  overflow: hidden;
+  left: -600px;
+}
+
+.subsubview {
+  width: 300px;
+  height: 200px;
+  background: red;
+  position: relative;
+  top: -200px;
+}
+
+nav {
+
+}
+
+/* 9-MEDIA QUERIES */
+
+/*Print __________________________________________________________________________________________________________ */
+@media print{
+
+}
+
+/*480px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 480px){
+
+}
+
+/*768px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 768px){
+
+}
+
+/*992px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 992px){
+
+}
+
+/*1382px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 1382px){
+
+}
+
+
+/* 10-No js styles */
